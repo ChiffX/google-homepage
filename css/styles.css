@@ -1,0 +1,67 @@
+body{
+    background-color: white;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    padding-top: 109px;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #609;
+}
+
+a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding: 10px;
+}
+
+#headerleft{
+    margin: 7px 0 0 10px;
+}
+
+#headerright{
+    text-align: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+}
+
+#headerleft a{
+    /* display: inline-block; */
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+}
+
+#headerright a{
+    display: inline-block;
+    padding-right: 15px;
+    color: #000;
+    opacity: 1;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
