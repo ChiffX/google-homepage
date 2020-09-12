@@ -242,6 +242,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    /* dummy comment */
 }
 .footerbl{
     justify-self: start;
