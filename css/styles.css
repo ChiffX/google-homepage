@@ -163,20 +163,11 @@ header{
 .inputboundary:hover{
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,.15);
 }
-/* .innerboundary{
-   
-    
-} */
-
 .searchlogocontainer{
     grid-area: searchlogo;
     padding-right: 13px;
     margin-top: -5px;
-}
-
-.searchlogo{
-    
-}
+}  
 .searchinput{
     grid-area: searchinput;
     border: none;
